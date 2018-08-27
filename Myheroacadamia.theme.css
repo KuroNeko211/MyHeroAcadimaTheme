@@ -1,0 +1,193 @@
+//META{"name":"My hero acadamia Theme","description":"My hero acadamia theme for magikarpii","author":"Kuro Neko","version":"1.0"}*//{}
+@import url(https://8xs4qxklp8.execute-api.us-east-2.amazonaws.com/release/gorawgit?giturl=/puckzxz/NotAnotherAnimeTheme/master/css/dcsl.css);
+
+
+:root {
+
+    --background-image: url(https://images2.alphacoders.com/742/thumb-1920-742320.png); 
+
+    --friends-icon: url(https://vignette.wikia.nocookie.net/kritika/images/6/60/Discord-logo.png/revision/latest?cb=20171226233126);
+
+    --friends-icon-position: center center; /* default: center center */
+
+    --friends-icon-zoom: 100%; /* default: 100% */
+
+    --main-color: rgb(67, 181, 129); /* default: rgb(67, 181, 129); */
+
+    --main-transparency: rgba(0, 0, 0, 0.3); /* default: rgba(0, 0, 0, 0.8); */ 
+
+
+    --unread-server-animation: rainbow1;
+
+    --hover-list-bg-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15) */
+
+    --border-lines-color: hsla(0,0%,100%,.1); /* default: hsla(0,0%,100%,.1);*/
+
+    --scroll-bar-color: rgba(255,255,255, .15); /* default: rgba(255,255,255, .15);*/
+
+ 
+    --font-size: 16px; /* default: 16px */
+ 
+    --selected-text-voice-color: #f6f6f7; /* default: #f6f6f7 */
+
+    --text-hover-color: #b9bbbe; /* default: #b9bbbe */
+
+    --voice-hover-color: #f6f6f7; /* default: #f6f6f7 */
+
+    --unread-text-color: #dcddde; /* default: #dcddde */
+    
+
+    --options-transparency: #2f3136; /* default: #2f3136 */
+}
+
+.markup-2BOw-j, .wrapperHover-1GktnT {
+    color:white ! important;
+}
+.textArea-2Spzkt {
+    font-size:20px;
+    background-color:#aec6cf;
+    color:#000000 ! important;
+}
+.inner-zqa7da {
+    border:2px solid white;
+    border-radius:10px;
+}
+.container-2Thooq {
+    background-color:#aec6cf !important;
+    border:2px solid black;
+    border-radius:20px;
+}
+.username-_4ZSMR {
+    color:#222222 ! important;
+}
+.popout-2fzvxG, .profile-ZOdGIb {
+    width:200px;
+    height:200px;
+}
+.maskProfile-1ObLFT {
+  -webkit-mask: none;
+  mask: none;
+}
+.avatarStatus-3Ay1VL, .status-oxiHuE {
+    display:none;
+}
+.body-3iLsc4, .footer-1fjuF6, .activityUserPopout-2yItg2,
+.headerTop-3C2Zn0{
+    border:2px solid white;
+}
+.channel-2fhmY8 {
+    background-color:#5500aa;
+    background-image:linear-gradient(to right, #aec6cf, #aec6cf);
+    border:2px solid #5533ff;
+    border-radius:20px;
+    
+}
+.privateChannels-1nO12o, .channel-2fhmY8, .selectedLink-3dsNZ6,
+.channelName-oTz0Zl {
+    color:black ! important;
+}
+.channel:hover, .channel-name, 
+.private-channels, .channel, .link-button-icon {
+    color:black ! important;
+}
+
+
+#bd-pub-button {
+    display:none;
+}
+
+
+.membersGroup-v9BXpm {
+    color:yellow ! important;
+}
+
+.nameHoveredVoice-YJ1Vfd,.nameHoveredText-1uO31y {
+    color:#ff0099;
+}
+.nameConnectedText-3CzNQn, .nameConnectedVoice-MHUX5F,
+.nameSelectedText-sp_EUw, .nameSelectedVoice-1qSph5 {
+    color:#1100ff ! important;
+}
+
+ 
+.wrapper-KpKNwI {
+    background-color:#aec6cf;
+    border:3px solid #5533ff;
+    border-radius:20px;
+    text-align:center;
+    margin-bottom:5px;
+    color:black ! important;
+}
+
+.containerCozyBounded-1rKFAn {
+    border:2px solid white;
+    border-radius:30px;
+    background-color:rgba(0,2,3,0.5);
+}
+
+
+.nameDefaultText-24KCy5, .name-3M0b8v {
+    color:#1100aa;
+}
+.username-_4ZSMR {
+    color:gold ! important;
+}
+.wrapper-3WhCwL {
+    color:yellow !important;
+}
+.member-3W1lQa{
+    border-left:4px solid black;
+    border-top:4px solid black;
+    border-radius:10px;
+}
+.popout-open {
+    background-color:#3ad0ca ! important;
+}
+.header-QKLPzZ, .activityProfile-2bJRaP,.activityUserPopout-2yItg2,
+.activityUserPopout-2yItg2 {
+    border:2px solid white;
+}
+.body-3ND3kc, .tabBarContainer-1s1u-z {
+    border:2px solid white ! important;
+}
+.titleBar-AC4pGV {
+    
+  -webkit-animation: rainbow1 3s infinite; 
+
+  animation: rainbow1 10s infinite; 
+}
+@-webkit-keyframes rainbow1{
+  0%{background-color: lightblue;}	
+    25%{background-color: blue;}	
+    50%{background-color: darkblue;}	
+    75%{background-color: blue;}	
+	100%{background-color: lightblue;}	
+}
+@keyframes rainbow1{
+  0%{background-color: lightblue;}	
+    25%{background-color: blue;}	
+    50%{background-color: darkblue;}	
+    75%{background-color: blue;}	
+	100%{background-color: lightblue;}
+}
+.title-3qD0b- {
+    background-image:linear-gradient(to right, #3ad0ca, lightblue)
+! important ;
+    border:2px solid white;
+    border-radius:20px;
+}
+.divider-3gKybi, .dividerRed-MKoLlr,
+.divider-3zi9LO, .da-divider .da-dividerRed {
+    color:blue ! important;
+    background-color:blue ! important;
+}
+.divider-3gKybi.dividerRed-MKoLlr > span {
+    color:blue ! important;
+    background-color: #3af0ea;
+    border:3px solid black;
+    border-radius:0px;
+}
+.wrapper-232cHJ, .badge-1GsMF2 {
+    background-color:#a0e3f0 ! important;
+    color:blue ! important;
+}
